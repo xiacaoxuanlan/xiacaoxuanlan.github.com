@@ -1,0 +1,113 @@
+.contain{ width: 1200px; margin:0 auto; }
+
+.img{ text-align: center; overflow: hidden; }
+.h-video{ text-align: center; overflow: hidden; }
+.h-iframe{ text-align: center; overflow: hidden; }
+.h-avatar{ display: block; width: 40px; height: 40px; border-radius: 50%; text-align: center; overflow: hidden; background-color: #ccc; }
+.h-avatar img,
+.h-video video,
+.h-iframe iframe,
+.img img{ width: 100%; height: 100%; }
+.h-username a{ color: #333; }
+.h-username a:hover{ color: #f89b38; }
+
+/* h-el-button */
+.h-el-button:active,
+.h-el-button:focus,
+.h-el-button:hover
+{ color: #f89b38; background-color: rgba(248, 155, 56, .2); border-color: #f89b38; }
+
+.h-el-button1{ background-color: inherit; border: none; }
+.h-el-button1:active,
+.h-el-button1:focus,
+.h-el-button1:hover
+{ color: #f89b38; background-color: inherit; border: none; }
+.h-el-button1.active{ background-color: #f89b38 !important; color: #fff !important; }
+
+/* h-tab-button-box1 > h-el-button */
+.h-tab-button-box1{ margin-bottom:20px; }
+.h-tab-button-box1 .h-el-button{ background-color: inherit; border: none; height: 24px; margin-right: 20px; }
+.h-tab-button-box1 .h-el-button:active,
+.h-tab-button-box1 .h-el-button:focus,
+.h-tab-button-box1 .h-el-button:hover
+{ color: #757575; background-color: inherit; border: none; }
+.h-tab-button-box1 .h-el-button.active{ background-color: #757575 !important; color: #fff !important; }
+
+
+/* h-el-pagination */
+.h-el-pagination1{ text-align: center; }
+.h-el-pagination1 button:hover{ color: #f89b38; }
+.h-el-pagination1 .el-pager li:hover{ color: #f89b38; }
+.h-el-pagination1 .el-pager li.active{ background-color: #777; color: #fff; }
+.h-el-pagination1 .el-input.is-active .el-input__inner,
+.h-el-pagination1 .el-input__inner:focus{ border-color: #f89b38; }
+
+/* h-el-textarea */
+.h-el-textarea1 .el-textarea__inner:focus{ border-color: #f89b38; }
+
+/* h-el-input */
+.h-el-input1.is-active .el-input__inner,
+.h-el-input1 .el-input__inner:focus{ border-color: #f89b38; }
+.h-el-input1 .el-input-group__append{ background-color: #f89b38 !important; color: #fff !important; border-color: #f89b38 !important; }
+/*.h-el-input1 .el-input-group__prepend{ background-color: inherit !important;  }*/
+
+/* el-upload-dragger */
+.el-upload--picture-card:hover, .el-upload:focus{ border-color: #f89b38; color: #f89b38; }
+.el-upload:focus .el-upload-dragger{ border-color: #f89b38; }
+.el-upload-dragger:hover{ border-color: #f89b38; }
+
+/* el-tabs__item */
+.el-tabs__item:hover{ color: #f89b38; }
+.el-tabs__item.is-active{ color: #f89b38; }
+.el-tabs__active-bar{ background-color: #f89b38; }
+
+/* h-el-loading */
+.h-el-loading{ min-height: 600px; }
+
+/* el-dialog */
+.el-dialog__title{ color: #f89b38; }
+
+/* h-el-radio-group1 */
+.h-el-radio-group1{}
+.h-el-radio-group1 .el-radio__input.is-checked .el-radio__inner{ border-color: #f89b38; background: #f89b38; }
+.h-el-radio-group1 .el-radio__inner:hover{ border-color: #f89b38; }
+.h-el-radio-group1 .el-radio__input.is-checked+.el-radio__label{ color: #f89b38; }
+
+/* nprogress */
+#nprogress .bar{ background-color: rgba(34, 153, 221, .3); }
+
+.h-module1{ background-color: #fff;
+  /*-webkit-box-shadow: 0 2px 9px 0 rgba(4, 0, 0, 0.05);
+  -moz-box-shadow: 0 2px 9px 0 rgba(4, 0, 0, 0.05);
+  box-shadow: 0 2px 9px 0 rgba(4, 0, 0, 0.05);*/
+}
+
+.h-title1{ font-size: 16px; line-height: 25px; margin-bottom: 10px; }
+
+.h-title2{ height:30px; line-height: 25px; }
+.h-title2 span{ color:#f89b38; font-size: 16px;  line-height: 16px;  margin-right: 10px;  padding-left:10px;  border-left:4px solid #f89b38;  }
+
+.h-flex{
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.flex-cloumn{
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+.justify-content-conter{
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.h-publish-btn{ width: 100%; background-color: #f89b38 !important; color: #fff !important; border: 1px solid #f89b38; }
+.h-publish-btn:active{ border-color: #c6e2ff; }
+/*empty-data*/
+.empty-data{ padding: 20px; color: #999; text-align: center; }
+.tlimit-page{ width: 100%; height: 100%; }
+
+.h-notfoundpage{ width: 100%; height: 100%; background-color: #fff; }
